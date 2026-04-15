@@ -13,11 +13,11 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/AudioKit/AudioKit", from: "5.5.7"),
-        .package(url: "https://github.com/AudioKit/Keyboard", branch: "main"),
-        .package(url: "https://github.com/AudioKit/PianoRoll", branch: "main"),
+        .package(url: "https://github.com/AudioKit/Keyboard", from: "1.4.1"),
+        .package(url: "https://github.com/AudioKit/PianoRoll", from: "1.0.1"),
         .package(url: "https://github.com/edudnyk/SolidScroll", from: "0.0.1"),
         .package(url: "https://github.com/pointfreeco/swift-composable-architecture", from: "0.45.0"),
-        .package(url: "https://github.com/AudioKit/Tonic", from: "1.0.6"),
+        .package(url: "https://github.com/AudioKit/Tonic", from: "2.0.0"),
     ],
     targets: [
         .target(
